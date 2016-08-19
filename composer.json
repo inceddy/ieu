@@ -1,0 +1,32 @@
+{
+    "name": "stg/ieu",
+    "type": "library",
+    "description": "The ieUtilities framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philipp Steingrebe",
+            "email": "philipp@steingrebe.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "replace": {
+        "stg/ieu_container": "self.version",
+        "stg/ieu_app": "self.version",
+        "stg/ieu_http": "self.version",
+        "stg/ieu_cache": "self.version",
+        "stg/ieu_event": "self.version"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+    },
+    "autoload": {
+        "exclude-from-classmap": [
+            "**/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
